@@ -97,3 +97,33 @@ h1{
     padding-bottom: 20px;
     text-transform: uppercase;
 }
+#detalleDatos{
+    width: 70%;
+    padding: 20px;
+}
+#botones{
+    display: flex;
+    margin-top: 20px;
+}
+#botonFavorito{
+    flex: 50%;
+
+}
+#botonUbicación{
+    flex: 50%;
+}
+#marcoFavorito{
+    background-color: #cccccc;
+    width: 250px;
+    background-image: url(../img/Recurso\ 13.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 25px 0px 25px 59px;
+    background-position:left 30px center;
+    border-radius: 12px;   
+}
+#marcoFavorito:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+
