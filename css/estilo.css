@@ -12,6 +12,10 @@
 footer{
     width: 100%;
     background-color: #7b9e35;
+    position: absolute;
+    bottom: 0;
+}
+#foterMenu{
     display: flex;
     padding: 30px;
 }
@@ -71,6 +75,7 @@ ul li:last-child{
     width: 100%;
     background-color: #D3EE9F;
     padding-top: 50px;
+    height: 600px;
 }
 #logoInicio{
     background-image:url("/img/Recurso\ 7.png");
@@ -139,17 +144,42 @@ h1{
 }
 #marcoDetallefoter{
     flex: 35%;
+    text-align: center;
+    animation: move 5s infinite;
+    position: relative;
+}
+@keyframes move{
+    from{ top: 0px;}
+    to{top: 40px;}
 }
 #marcoRedesfoter{
     flex: 45%;
+    text-align: right;
+    padding: 70px;
 }
 .foterRedes{
     display: inline;
+    
 }
 li img{
     width: 28px;
 }
-.foterRedes{
+li img:hover{
+    opacity: 60%;
+    width: 4%;
+}
+.foterRedes li{
     border: none;
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 20px;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 25px;
 }
 
